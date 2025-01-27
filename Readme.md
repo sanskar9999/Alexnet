@@ -8,6 +8,8 @@ So I resorted to using the TensorFlow Datasets (CIFAR-10 dataset) instead of man
 
 I made sure to include proper data preprocessing and batching, and made sure to Implement a modified AlexNet architecture suitable for smaller images (277x277).
 
+![performance graphs](img/graph.png)
+
 After training for 10 epoches, the model achieves a Test Accuracy of 77.34%
 
 You can look at the sample images and as well as the classification matrix below to get an idea of how well the model performs.
