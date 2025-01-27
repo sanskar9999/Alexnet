@@ -22,16 +22,16 @@ As you can see the model performs generally well on classifying images and mostl
 
 A few Examples:
 ![dog](img/dog.png)
-i would say it did a pretty decent job of recognizing this one
+I would say it did a pretty decent job of recognizing this one
 ![frog](img/frog.png)
-this one is good too
+This one is good too
 ![horse](img/horse.png)
-it fails at this one likely because the whole body of the horse is not visible in the picture
+It fails at this one likely because the whole body of the horse is not visible in the picture
 ![truck](img/truck.png)
-i would say it did a great job here at recogniting this truck, i personally could not understand how it did that
+I would say it did a great job here at recogniting this truck, i personally could not understand how it did that
 ![plane](img/plane.png)
-it tried but failed here, but it was a close one...
+It tried but failed here, but it was a close one...
 
-so you can see the model is decent but there is still a room for improvement
+So you can see the model is decent but there is still a room for improvement
 
 Perhaps in the future, if I get access to better hardware resources, I can traing a better model with a larger and higher quality dataset and more training time, but as of now this implementation stands as a great exercise for me to understand the basics of Deep Learning systems.
