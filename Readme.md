@@ -6,7 +6,9 @@ But since the ImageNet API endpoints I was trying to use are no longer publicly 
 
 So I resorted to using the TensorFlow Datasets (CIFAR-10 dataset) instead of manually downloading ImageNet images. This is because this dataset was readily available and well-maintained.
 
-I made sure to include proper data preprocessing and batching, and made sure to Implement a modified AlexNet architecture suitable for smaller images (277x277).
+I made sure to include proper data preprocessing and BatchNormalization layers for better training stability, as well as Proper data prefetching for better performance.
+
+I made sure to Implement a modified AlexNet architecture suitable for smaller images from the CIFAR=10 dataset, to avoid getting any dimensionality issues I resized the images to 277x277 (AlexNet's original input size), as the input images were getting too small for the later max pooling operations.
 
 ![performance graphs](img/graph.png)
 
