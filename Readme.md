@@ -38,4 +38,4 @@ So you can see the model is decent but there is still a room for improvement
 
 We got to know about how the model learned over time, where it performs well/poorly, which classes it confuses with each other and pretty much the overall performance metrics.
 
-Perhaps in the future, if I get access to better hardware resources, I can traing a better model with a larger and higher quality dataset and more training time, perhaps even data augumentation and stuff could help but as of now this implementation mainly stands as a good exercise for me to understand the basics of Alexnet architecture and Deep Learning systems.
+Perhaps in the future, if I get access to better hardware resources, I can traing a better model with a larger and higher quality dataset with more training time, but as of now this implementation mainly stands as a good exercise for me to understand the basics of Alexnet architecture and Deep Learning systems.
